@@ -1,3 +1,4 @@
+
 ---
 title: Structs Exercise
 description: Exercise - Demonstrate your knowledge of structs.
@@ -61,15 +62,12 @@ Add a public function called `resetMyGarage`. It should delete the entry in `gar
 <Note>
 #### Hey, where'd my NFT go!?
 
-[Testnets](/learn/deployment-to-testnet/test-networks) Base Sepolia (https://base.mirror.xyz/kkz1-KFdUwl0n23PdyBRtnFewvO48_m-fZNzPMJehM4), is now the active test network and replaces the older testnets.
-Since these are separate networks with different data, your NFTs will not automatically transfer over.
+[Testnets](/learn/deployment-to-testnet/test-networks) are not permanent! Base Goerli [will soon be sunset](https://base.mirror.xyz/kkz1-KFdUwl0n23PdyBRtnFewvO48_m-fZNzPMJehM4), in favor of Base Sepolia.
 
-Don’t worry!
-We’ve already collected the addresses of all NFT owners from the previous testnet.
-When we release the mechanism to transfer these NFTs to mainnet later this year, all of those addresses will be included.
+As these are separate networks with separate data, your NFTs **will not** transfer over.
 
-If you’d like, you can also redeploy your NFTs on Base Sepolia and resubmit them.
- </Note>
+**Don't worry!** We've captured the addresses of all NFT owners on Base Goerli and will include them when we release the mechanism to transfer these NFTs to mainnet later this year! You can also redeploy on Sepolia and resubmit if you'd like!
+</Note>
 
 {/* <CafeUnitTest nftNum={7}/> */}
 
@@ -82,3 +80,4 @@ If you’d like, you can also redeploy your NFTs on Base Sepolia and resubmit th
 <Accordion title="⚠️ Spoiler Alert: Open only if tests fail">
 Ensure your variable sizes align with their intended use, and consider the nuances of packing in Solidity. Resources: [Solidity - Layout in Storage](https://docs.soliditylang.org/en/v0.8.17/internals/layout_in_storage.html#layout-of-state-variables-in-storage), [Variables in Struct](/learn/structs/structs-sbs#setting-up-the-struct)
 </Accordion>
+
